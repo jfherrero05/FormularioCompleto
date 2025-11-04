@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</html>
+<body>
+    <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Teléfono:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="Fecha de Nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="Género">Género:</label>
+        <select id="gender" name="gender">
+            <option value="male">Masculino</option>
+            <option value="female">Femenino</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
